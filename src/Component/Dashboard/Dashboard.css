@@ -1,0 +1,155 @@
+.sidebar{
+    background-color: #7ea04d;
+    padding-top: 37px;
+}
+
+.time_filter_dropdown{
+        background-color: #708090;
+        padding: 10px 30px 10px 30px;
+        border-radius: 5px;
+        margin: 2rem;
+}
+.time_filter{
+  background-color: #708090;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 0px 10px 0px;
+  width: 10vw;
+  margin-left: 3rem;
+}
+
+.drop{
+    position: absolute;
+    transform: translate(0px, 47px);
+    background-color: #eeffe6;
+    margin: 0.7rem 0rem 0rem -2rem;
+    color: black;
+}
+
+select {
+    word-wrap: normal;
+    background-color: #708090;
+    color: #fff;
+    border: 1px solid ghostwhite;
+}
+.drop{
+    margin: 0.7rem 0rem 0rem -2rem;
+}
+.bubble{
+    margin-top: -2rem;
+    background-color: #708090;
+}
+
+.bubble:hover{
+    margin-top: -2rem;
+    background-color: #708090;
+}
+
+.bubble .dropdown-item:hover{
+    background-color: darkslategray;
+}
+.bubble .dropdown-item{
+    color: white;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+#navbarTogglerDemo01 .dropdown-toggle::after {
+    display: none;
+}
+
+.rounded-circle{
+    background-color: #E36132;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 30px;
+    font-family: Rockwell;
+    font-weight: bold;
+    color: #FAEFEF;
+    padding-top: 2px;
+}
+.btn:hover{
+    background-color: #708090;
+}
+.topic_container{
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 12px 0px;
+}
+.traffic{
+    padding: 20px 0px 20px 20px;
+}
+.avg{
+    background-color: #708090;
+    margin-right: 0.3rem;
+    padding: 10px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+.avg h6 {
+    font-size: 0.9rem;
+    color: #fff;
+}
+.avg h3{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.topic_col{
+    padding-top: 10px;
+}
+
+.topic{
+    display: flex;
+    justify-content: space-between;
+}
+.topic_cloud{
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.word_col{
+    background-color: #fff;
+}
+.word{
+    display: flex;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+.word_cloudMap{
+    padding: 10px;
+    text-align: end;
+}
+
+.topic_map{
+    padding: 10px;
+    text-align: end;
+}
+
+@media (min-width: 576px){
+    .avg{
+        background-color: #708090;
+        margin-top: 0.5rem;
+        margin-right: 0.3rem;
+        padding: 10px 5px 5px 5px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .forth{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 576px){
+    .avg{
+        background-color: #708090;
+        margin-top: 0.5rem;
+        margin-right: 0.3rem;
+        padding: 10px 5px 5px 5px;
+        border-radius: 10px 10px 10px 10px;
+    }
+}
